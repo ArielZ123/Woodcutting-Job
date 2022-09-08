@@ -23,7 +23,7 @@ Go to -> fxmanifest.lua - > then go to -> shared_scripts and then add this line 
 Server side changes: Line 69 ->  local Addmoney = math.random (6000, 7000) -- change here the price of the wood sell.
 There you will be able to change the amount of the money that the player will get, change the numbers to (High or low amount) as your choice.
 
-DONT FORGET TO LOAD THE ITEMS TO YOUR DB, PLEASE ADD YOUR DB NAME HERE: USE `DBNAME`; IN THE SQL FILE.
+DONT FORGET TO CONNECT THE ITEMS TO YOUR DB, PLEASE ADD YOUR DB NAME HERE: USE `DBNAME`; IN THE SQL FILE.
 
 Pictures from the job:
 https://cdn.discordapp.com/attachments/972536985287815188/1017470633984147487/Screenshot_115.png
