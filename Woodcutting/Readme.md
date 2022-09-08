@@ -1,3 +1,8 @@
+# Woodcutting-Job
+OverTrue RolePlay Woodcutting-Job
+
+# Note:
+
 Hi there, thank you for download my Woodcutting job here you can get all the information about the job.
 
 About the job: The woodcutting job includes 3 parts that you need to pass in order to get the payment, here are the steps:
@@ -38,8 +43,6 @@ Ms when you are far from the markers of the job: https://media.discordapp.net/at
 Ms when you are inside the markers of the job: https://media.discordapp.net/attachments/972536985287815188/1017458865522081872/unknown.png
 
 Note: The script is for esx versions now but as soon as possible i will release an update for qbcore version.
-the script should get some updates as well, so for that i invite you to my discord server for any question or support that you need.
-Link to join -> https://discord.gg/6Y95d5JqUg
+Also the script should get some updates soon, stay tuned
 
-IMPORTANT: I WILL NEED HELP FROM YOU TO TEST MY QBCORE VERSION, IF YOU HAVE A QBCORE SERVER PLEASE JOIN MY DISCORD SERVER.
-Link to join -> https://discord.gg/6Y95d5JqUg
+IMPORTANT: I WILL NEED HELP FROM YOU TO TEST MY QBCORE VERSION, IF YOU HAVE A QBCORE SERVER PLEASE CONTACT ME -> https://forum.cfx.re/t/woodcutting-job/4907504
