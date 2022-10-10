@@ -6,7 +6,7 @@ end
 RegisterServerEvent('Woodcutting:Wood:Cut')
 AddEventHandler('Woodcutting:Wood:Cut', function()
 	local _source = source
-	local xPlayer = ESX.GetPlayerFromId(source)
+	local xPlayer = ESX.GetPlayerFromId(_source)
 	local WoodCutQuantity = xPlayer.getInventoryItem('wood').count
 	if WoodCutQuantity >= 15 then
 	   	TriggerClientEvent("pNotify:SendNotification", source, {
@@ -31,7 +31,7 @@ end)
 RegisterServerEvent('Woodcutting:Wood:Process')
 AddEventHandler('Woodcutting:Wood:Process', function()
    local _source = source
-   local xPlayer = ESX.GetPlayerFromId(source)
+   local xPlayer = ESX.GetPlayerFromId(_source)
    local WoodQuantity = xPlayer.getInventoryItem('wood').count
    if WoodQuantity >= 15 then
       TriggerClientEvent("pNotify:SendNotification", source, {
@@ -64,7 +64,7 @@ end)
 RegisterServerEvent('Woodcutting:Wood:Sell')
 AddEventHandler('Woodcutting:Wood:Sell', function()
    local _source = source
-   local xPlayer = ESX.GetPlayerFromId(source)
+   local xPlayer = ESX.GetPlayerFromId(_source)
    local processed_wood_Quantity = xPlayer.getInventoryItem('processed_wood').count
    local Addmoney = math.random (6000, 7000) -- change here the price of the wood sell
    if processed_wood_Quantity >= 15 then
