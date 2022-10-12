@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games { 'rdr3', 'gta5' }
 
 author 'ArielZ'
-description 'OverTrue RolePlay Woodcutting-Job.
+description 'OverTrue RolePlay Woodcutting-Job'.
 version '1.0.0'
 
 
