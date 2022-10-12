@@ -98,7 +98,8 @@ Citizen.CreateThread(function()
 
 		SetBlipSprite(harvest_blip, 153)
 		SetBlipScale(harvest_blip, 0.80)
-        SetBlipColour(harvest_blip, 56)
+                SetBlipColour(harvest_blip, 56)
+		SetBlipAsShortRange(harvest_blip, true)
 
 		BeginTextCommandSetBlipName("STRING")
 		AddTextComponentString('Harvest Spot')
@@ -124,7 +125,8 @@ Citizen.CreateThread(function()
 
 	SetBlipSprite(Processing_blip, 568)
 	SetBlipScale(Processing_blip, 0.80)
-    SetBlipColour(Processing_blip, 10)
+        SetBlipColour(Processing_blip, 10)
+	SetBlipAsShortRange(Processing_blip, true)
 
 	BeginTextCommandSetBlipName("STRING")
 	AddTextComponentString('Wood Processing')
@@ -135,7 +137,8 @@ Citizen.CreateThread(function()
 
 	SetBlipSprite(Sell_blip, 501)
 	SetBlipScale(Sell_blip, 0.80)
-    SetBlipColour(Sell_blip, 56)
+        SetBlipColour(Sell_blip, 56)
+        SetBlipAsShortRange(Sell_blip, true)
 
 	BeginTextCommandSetBlipName("STRING")
 	AddTextComponentString('Wood Sell')
