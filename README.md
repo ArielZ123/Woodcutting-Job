@@ -29,6 +29,8 @@ Go to -> fxmanifest.lua - > then go to -> shared_scripts and then add this line 
 Server side changes: Line 69 ->  local Addmoney = math.random (6000, 7000) -- change here the price of the wood sell.
 There you will be able to change the amount of the money that the player will get, change the numbers to (High or low amount) as your choice.
 
+Client Side: lines 14, 18, 22, 26, can be used to add more locations that cab be used for the npcs / sell loc / and cutting loc as well.
+
 DONT FORGET TO CONNECT THE ITEMS TO YOUR DB, PLEASE ADD YOUR DB NAME HERE: USE `DBNAME`; IN THE SQL FILE.
 
 Pictures from the job:
